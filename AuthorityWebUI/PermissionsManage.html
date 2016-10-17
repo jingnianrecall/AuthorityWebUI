@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>权限管理</title>
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+    <link href="themes/bootstrap/easyui.css" rel="stylesheet" type="text/css" />
+    <link href="themes/icon.css" rel="stylesheet" type="text/css" />
+    <link href="css/table.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.easyui.min.js" type="text/javascript"></script>
+    <script src="js/common.js" type="text/javascript"></script>
+    <script src="js/init.js" type="text/javascript"></script>
+    <script src="js/easyui-lang-zh_CN.js" type="text/javascript"></script>
+</head>
+<body class="easyui-layout">
+    <noscript>
+        <div style="position: absolute; z-index: 100000; height: 2046px; top: 0px; left: 0px;
+            width: 100%; background: white; text-align: center;">
+            <h1>
+                必须打开浏览器javascript支持！！！</h1>
+        </div>
+    </noscript>
+    <div data-options="region:'west',split:true,title:'功能导航'" style="width: 180px; padding: 10px;">
+        <div>
+            <ul id="treeLeft">
+            </ul>
+        </div>
+    </div>
+    <div data-options="region:'center'">
+        <div id="tabs" class="easyui-tabs" fit="true" border="false" data-options="
+             tools:[
+             {iconCls : 'icon-house' ,text:'返回主页',handler:returnHome}
+             ]">
+        </div>
+    </div>
+</body>
+</html>
